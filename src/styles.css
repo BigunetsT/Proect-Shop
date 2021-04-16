@@ -1,0 +1,25 @@
+.shop {
+  display: flex;
+  flex-direction: column;
+}
+.body {
+  display: flex;
+}
+.content {
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+}
+.footer {
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+}
+.header {
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+}
+.menu {
+  border: 1px solid black;
+}
