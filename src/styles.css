@@ -5,45 +5,30 @@
 .body {
   display: flex;
 }
-.content {
-  border: 1px solid black;
-  display: flex;
-  flex: 1;
-  padding: 20px;
-}
-.footer {
-  border: 1px solid black;
-  display: flex;
-  flex: 1;
-  padding: 20px;
-}
-.header {
-  border: 1px solid black;
-  display: flex;
-  flex: 1;
-  padding: 20px;
-}
-.menu {
-  border: 1px solid black;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-.reference {
-  cursor: pointer;
-  margin-bottom: 10px;
-}
 .list {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  color: purple;
 }
 .item {
+  display: flex;
+  align-items: flex-start;
   text-align: center;
   margin-bottom: 20px;
-  border: 1px solid black;
 }
+.item-name {
+  font-weight: bold;
+}
+
 .img {
   display: block;
   width: 300px;
+}
+.MuiSvgIcon-root.addShoppingIcon {
+  font-size: 3rem;
+  fill: black;
+}
+.MuiIconButton-label:hover .MuiSvgIcon-root.addShoppingIcon {
+  fill: purple;
 }
